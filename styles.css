@@ -1,11 +1,13 @@
 body {
   background: #e0f7fa;
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   font-family: "Arial", sans-serif;
   margin: 0;
+  padding-bottom: 40px;
 }
 
 .egg-container {
@@ -71,6 +73,7 @@ body {
 .footer {
   position: fixed;
   bottom: 10px;
+  left: 0;
   width: 100%;
   text-align: center;
   color: #01579b;
