@@ -68,3 +68,13 @@ body {
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
 }
+.footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: #01579b;
+  font-weight: bold;
+  font-size: 0.9em;
+  font-family: Arial, sans-serif;
+}
