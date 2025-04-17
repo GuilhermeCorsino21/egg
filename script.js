@@ -9,3 +9,5 @@ function revealMessage() {
     origin: { y: 0.6 },
   });
 }
+const bunny = document.getElementById("bunny");
+bunny.style.display = "block";
